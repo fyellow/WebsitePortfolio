@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
+   
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
@@ -75,7 +77,10 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Web Designer / Developer Located In Our Lovely Earth</h5>
                 <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <form >
+                    <button class="btn btn-outline-danger" onclick="location.href='firebasestorage.googleapis.com/v0/b/gayathri-website-clg.appspot.com/o/GayathriGirishKumar_resume.pdf?alt=media&token=1d2af3c9-387a-4050-b2fb-63c725ed47d5'"><i class="icon-down-circled2 "></i>Download My CV</button>
+                </form>
+                
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -777,6 +782,7 @@
 
     <!-- bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 
     <!-- Isotope  -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
@@ -786,6 +792,7 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
+    <script src="assets/js/scroll.js"></script>
 
 </body>
 </html>
